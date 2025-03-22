@@ -1,1 +1,0 @@
-## write a function to determine the factorial of a number
