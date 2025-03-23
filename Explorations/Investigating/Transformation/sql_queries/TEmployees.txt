@@ -1,0 +1,6 @@
+CREATE TABLE employees (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first TEXT,
+    last TEXT,
+    pay INTEGER
+)

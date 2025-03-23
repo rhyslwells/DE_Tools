@@ -1,0 +1,7 @@
+CREATE TABLE purchases (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    employee_id INTEGER,
+    product_name TEXT,
+    amount INTEGER,
+    FOREIGN KEY (employee_id) REFERENCES employees(id)
+)
