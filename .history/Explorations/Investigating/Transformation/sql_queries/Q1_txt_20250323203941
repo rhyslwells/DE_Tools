@@ -1,0 +1,5 @@
+CREATE TABLE employees (
+            first text,
+            last text,
+            pay integer
+            )

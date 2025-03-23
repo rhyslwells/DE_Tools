@@ -1,0 +1,5 @@
+'''
+ SELECT customers.name, customers.phone_number, orders.name, orders.amount
+ FROM customers INNER JOIN orders
+ ON customers.id = orders.customer_id
+'''
