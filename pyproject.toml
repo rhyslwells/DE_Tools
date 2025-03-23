@@ -13,7 +13,12 @@ dependencies = [
     "seaborn (>=0.13.2,<0.14.0)",
     "matplotlib (>=3.10.1,<4.0.0)",
     "statsmodels (>=0.14.4,<0.15.0)",
-    "scikit-learn (>=1.6.1,<2.0.0)"
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "gspread (>=6.2.0,<7.0.0)",
+    "google (>=3.0.0,<4.0.0)",
+    "google-api-python-client (>=2.165.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-auth-oauthlib (>=1.2.1,<2.0.0)"
 ]
 
 [tool.poetry]
