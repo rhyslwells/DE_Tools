@@ -1,0 +1,6 @@
+.headers on
+.mode column
+.mode column
+.headers on
+.separator ROW "\n"
+.nullvalue NULL
