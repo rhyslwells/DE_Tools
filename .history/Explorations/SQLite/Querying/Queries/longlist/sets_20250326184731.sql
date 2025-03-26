@@ -8,7 +8,7 @@
 -- SELECT 'author' AS "profession", "name" FROM "authors";
 
 -- -- Selects all translators, labeling as translators
--- SELECT 'translator' AS "profession", "name" FROM "translators";
+SELECT 'translator' AS "profession", "name" FROM "translators";
 
 -- -- Combines authors and translators into one result set
 -- SELECT 'author' AS "profession", "name" FROM "authors"

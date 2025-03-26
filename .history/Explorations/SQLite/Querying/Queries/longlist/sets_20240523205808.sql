@@ -8,18 +8,18 @@
 -- SELECT 'author' AS "profession", "name" FROM "authors";
 
 -- -- Selects all translators, labeling as translators
--- SELECT 'translator' AS "profession", "name" FROM "translators";
+SELECT 'translator' AS "profession", "name" FROM "translators";
 
 -- -- Combines authors and translators into one result set
--- SELECT 'author' AS "profession", "name" FROM "authors"
--- UNION
--- SELECT 'translator' AS "profession", "name" FROM "translators";
+SELECT 'author' AS "profession", "name" FROM "authors"
+UNION
+SELECT 'translator' AS "profession", "name" FROM "translators";
 
--- -- -- INTERSECT (Assume names are unique)
--- -- -- Finds authors and translators
--- SELECT "name" FROM "authors"
--- INTERSECT
--- SELECT "name" FROM "translators";
+-- -- INTERSECT (Assume names are unique)
+-- -- Finds authors and translators
+SELECT "name" FROM "authors"
+INTERSECT
+SELECT "name" FROM "translators";
 
 -- -- Finds books translated by Sophie Hughes
 -- SELECT "book_id" FROM "translated" WHERE "translator_id" = (

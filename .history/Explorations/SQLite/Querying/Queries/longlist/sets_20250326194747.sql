@@ -1,3 +1,13 @@
+
+For each query load somthing like this:
+
+# Query 3: Authors from Season 3
+df_season3 = pd.read_sql("SELECT * FROM authors WHERE country = 'Spain' ORDER by birth DESC", conn)
+print("\nAuthors from Spain 3:\n", df_season3)
+
+-----
+Queries:
+
 -- -- Demonstrates set operations
 -- Uses longlist.db
 
@@ -8,7 +18,7 @@
 -- SELECT 'author' AS "profession", "name" FROM "authors";
 
 -- -- Selects all translators, labeling as translators
--- SELECT 'translator' AS "profession", "name" FROM "translators";
+SELECT 'translator' AS "profession", "name" FROM "translators";
 
 -- -- Combines authors and translators into one result set
 -- SELECT 'author' AS "profession", "name" FROM "authors"
