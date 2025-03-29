@@ -1,0 +1,24 @@
+# Repository Task Tracker
+
+This repository serves as a structured tracker for tasks related to Jupyter Notebook implementations and SQLite database exploration. The goal is to consolidate each folder for easy reuse and understanding.
+
+## In Progress
+
+### Transactions
+
+### Viewing
+- [ ] **Viewing.ipynb** – Needs cleaning and better documentation for understanding.
+
+### Writing
+- [ ] **Changing.ipynb** – Explore and document insights.
+- [ ] **Creating.ipynb** – Requires reformatting.
+- [ ] **Add Remaining SQL Files to Creating.ipynb** – Process all `.sql` files into Jupyter Notebooks.
+
+### SQLite
+- Exploring SQLite usage via the terminal to inspect the **Chinook dataset**.
+- Investigating basic interactions with a database using `sqlite3` (outside of Jupyter Notebook).
+
+## Ideas
+
+Potential areas for future exploration:
+- Implementing **triggers** in SQLite.
