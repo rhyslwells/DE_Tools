@@ -1,3 +1,0 @@
-SELECT e.first, e.pay, p.product_name, p.amount
-FROM employees e
-JOIN purchases p ON e.id = p.employee_id
