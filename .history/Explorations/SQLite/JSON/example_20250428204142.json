@@ -1,0 +1,20 @@
+[
+    {
+      "user_id": 1,
+      "name": "Alice",
+      "address": {"city": "New York", "zip": "10001"},
+      "purchases": [
+        {"item": "Laptop", "price": 1200},
+        {"item": "Mouse", "price": 25}
+      ]
+    },
+    {
+      "user_id": 2,
+      "name": "Bob",
+      "address": {"city": "Los Angeles", "zip": "90001"},
+      "purchases": [
+        {"item": "Keyboard", "price": 75}
+      ]
+    }
+  ]
+  
