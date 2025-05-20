@@ -1,0 +1,14 @@
+site,meter_id,attached_to,location,flow_direction,type
+Site 1,Meter 1,,Main Inlet,inflow,primary
+Site 1,Meter 2,Meter 1,Building A,inflow,sub
+Site 1,Meter 3,Meter 1,Building B,inflow,sub
+Site 1,Meter 4,Meter 2,Level 1,inflow,sub
+Site 1,Meter 5,Meter 2,Level 2,inflow,sub
+Site 1,Meter 6,Meter 3,Workshop,inflow,sub
+Site 2,Meter 1,,Main Inlet,inflow,primary
+Site 2,Meter 2,Meter 1,Warehouse,inflow,sub
+Site 2,Meter 3,Meter 2,Cold Storage,inflow,sub
+Site 3,Meter 1,,Main Inlet,inflow,primary
+Site 3,Meter 2,Meter 1,Admin Block,inflow,sub
+Site 3,Meter 3,Meter 1,Mechanical Room,inflow,sub
+Site 3,Meter 4,Meter 2,2nd Floor,inflow,sub

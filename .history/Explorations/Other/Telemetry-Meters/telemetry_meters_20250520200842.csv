@@ -1,0 +1,14 @@
+site,meter_id,attached_to,location,flow_direction,type,zone,installation_date,status,maintenance_priority
+Site 1,Meter 1,,Main Inlet,inflow,primary,Zone A,2021-01-15,active,high
+Site 1,Meter 2,Meter 1,Building A,inflow,sub,Zone A,2021-01-20,active,medium
+Site 1,Meter 3,Meter 1,Building B,inflow,sub,Zone B,2021-02-01,active,medium
+Site 1,Meter 4,Meter 2,Level 1,inflow,sub,Zone A,2021-03-01,maintenance,high
+Site 1,Meter 5,Meter 2,Level 2,inflow,sub,Zone A,2021-03-10,active,low
+Site 1,Meter 6,Meter 3,Workshop,inflow,sub,Zone B,2021-04-05,active,low
+Site 2,Meter 1,,Main Inlet,inflow,primary,Zone C,2020-12-10,active,high
+Site 2,Meter 2,Meter 1,Warehouse,inflow,sub,Zone C,2021-01-05,active,medium
+Site 2,Meter 3,Meter 2,Cold Storage,inflow,sub,Zone C,2021-01-25,maintenance,high
+Site 3,Meter 1,,Main Inlet,inflow,primary,Zone D,2021-05-01,active,high
+Site 3,Meter 2,Meter 1,Admin Block,inflow,sub,Zone D,2021-05-10,active,medium
+Site 3,Meter 3,Meter 1,Mechanical Room,inflow,sub,Zone D,2021-06-01,maintenance,low
+Site 3,Meter 4,Meter 2,2nd Floor,inflow,sub,Zone D,2021-06-15,active,low

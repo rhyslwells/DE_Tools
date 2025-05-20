@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "site": "Site 1",
+      "meter_id": "Meter 2",
+      "attached_to": "Meter 1",
+      "location": "Building A",
+      "flow_direction": "inflow",
+      "type": "sub",
+      "id": "Meter 2"
+    },
+    {
+      "site": "Site 1",
+      "meter_id": "Meter 4",
+      "attached_to": "Meter 2",
+      "location": "Level 1",
+      "flow_direction": "inflow",
+      "type": "sub",
+      "id": "Meter 4"
+    },
+    {
+      "site": "Site 1",
+      "meter_id": "Meter 5",
+      "attached_to": "Meter 2",
+      "location": "Level 2",
+      "flow_direction": "inflow",
+      "type": "sub",
+      "id": "Meter 5"
+    }
+  ],
+  "links": [
+    {
+      "source": "Meter 2",
+      "target": "Meter 4"
+    },
+    {
+      "source": "Meter 2",
+      "target": "Meter 5"
+    }
+  ]
+}
