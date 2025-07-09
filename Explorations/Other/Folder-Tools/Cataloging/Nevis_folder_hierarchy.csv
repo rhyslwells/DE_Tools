@@ -1,0 +1,7 @@
+folder_path,folder_name,unique_id,depth_from_root,parent_folder,parent_id
+C:\Users\rhys.wells\Desktop\Inbox\DE_Tools\Explorations\Other\Folder-Tools\Cataloging\TestFolder,TestFolder,1,0,,
+C:\Users\rhys.wells\Desktop\Inbox\DE_Tools\Explorations\Other\Folder-Tools\Cataloging\TestFolder\child1,child1,1.1,1,TestFolder,1
+C:\Users\rhys.wells\Desktop\Inbox\DE_Tools\Explorations\Other\Folder-Tools\Cataloging\TestFolder\child1\c1c1,c1c1,1.1.1,2,child1,1.1
+C:\Users\rhys.wells\Desktop\Inbox\DE_Tools\Explorations\Other\Folder-Tools\Cataloging\TestFolder\child1\c1c1\c3,c3,1.1.1.1,3,c1c1,1.1.1
+C:\Users\rhys.wells\Desktop\Inbox\DE_Tools\Explorations\Other\Folder-Tools\Cataloging\TestFolder\child1\c1c2,c1c2,1.1.2,2,child1,1.1
+C:\Users\rhys.wells\Desktop\Inbox\DE_Tools\Explorations\Other\Folder-Tools\Cataloging\TestFolder\child2,child2,1.2,1,TestFolder,1
