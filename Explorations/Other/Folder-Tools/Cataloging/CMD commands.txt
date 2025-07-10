@@ -1,0 +1,18 @@
+tree /a > folders.txt
+
+Open Excel and follow these steps:
+
+Click Data tab
+Click 'From Text/CSV'
+Select your tree.txt file
+In the import wizard:
+Choose 'Delimited' as file type
+Set delimiter to '|' (pipe) and '-' (hyphen)
+Click 'Load'
+
+If you want to change drive and directory in one command:
+cd /d C:\Users\rhys.wells\Desktop\Inbox\DE_Tools
+
+Using Export-CSV (creates an Excel-friendly file):
+powershell "Get-ChildItem -Directory -Depth 2 -Path '.' | Select-Object FullName | Export-CSV .\folders.csv -NoTypeInformation"
+
