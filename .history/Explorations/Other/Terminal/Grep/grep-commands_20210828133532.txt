@@ -1,3 +1,4 @@
+grep "Jane Williams" names.txt
 grep "John Williams" names.txt
 
 grep -w "John Williams" names.txt
@@ -19,6 +20,5 @@ history | grep "git commit"
 history | grep "git commit" | grep "dotfile"
 
 grep "...-...-...." names.txt
-
 grep -P "\d{3}-\d{3}-\d{4}" names.txt
 grep -V
