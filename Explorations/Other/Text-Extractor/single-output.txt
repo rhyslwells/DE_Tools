@@ -1,0 +1,63 @@
+## 1_Screenshot 2025-07-21 183650 copy 2.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 1_Screenshot 2025-07-21 183650 copy.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 1_Screenshot 2025-07-21 183650.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 2_Screenshot 2025-07-21 183650 copy.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 2_Screenshot 2025-07-21 183650.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 3_Screenshot 2025-07-21 183650 copy.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 3_Screenshot 2025-07-21 183650.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 4_Screenshot 2025-07-21 183650 copy.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+
+## 4_Screenshot 2025-07-21 183650.png
+Expected Output
+Appended
+output
+txt  with block-separated OCR results:
+Console output like:
+

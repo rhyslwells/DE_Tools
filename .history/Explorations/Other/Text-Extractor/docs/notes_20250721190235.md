@@ -1,0 +1,33 @@
+### Overview
+
+Singel processing
+Total time: 8.49 seconds
+
+Multi processing
+Total time: 26.31 seconds
+
+## **`single_main.py`** — Sequential EasyOCR Processor
+
+A simple Python script that:
+
+* Iterates over images in the `images/` folder **one by one**.
+* Uses a single `easyocr.Reader` instance to extract text.
+* Appends each image’s text to `single-output.txt`.
+* Skips files already processed (based on headings in the output file).
+* Reports total runtime.
+
+**Use Case**: Simple, reliable, minimal resource use — good for small datasets or environments with limited cores.
+
+---
+
+## **`multi_main.py`** — Parallel EasyOCR with Multiprocessing
+
+A performance-optimized script that:
+
+* Distributes image processing across **multiple CPU processes** (default: 6).
+* Each process creates its own `easyocr.Reader` to avoid shared memory issues.
+* Appends results to `multi-output.txt`, skipping already-processed files.
+* Uses `ProcessPoolExecutor` for true parallelism.
+* Measures total runtime from entry to exit.
+
+**Use Case**: Much faster on multi-core machines — ideal for processing large batches of images.
