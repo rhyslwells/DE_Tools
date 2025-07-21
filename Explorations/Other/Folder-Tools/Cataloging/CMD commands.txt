@@ -16,3 +16,4 @@ cd /d C:\Users\rhys.wells\Desktop\Inbox\DE_Tools
 Using Export-CSV (creates an Excel-friendly file):
 powershell "Get-ChildItem -Directory -Depth 2 -Path '.' | Select-Object FullName | Export-CSV .\folders.csv -NoTypeInformation"
 
+.
